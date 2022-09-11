@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'ec2-node'}
+    agent any
      environment {
         secret_key     = credentials('secret-key')
     }
