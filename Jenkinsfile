@@ -1,7 +1,7 @@
 pipeline {
     agent any
      environment {
-        secret_key     = credentials('secret-key')
+        secret_key = credentials('secret-key')
     }
     stages {
         stage('hack') {
